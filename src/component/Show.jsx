@@ -28,6 +28,7 @@ const Show = () => {
 
     return (
         <div>
+            <h1>Getting data from backend.</h1>
             <h1>User List</h1>
             {data.map((fdata, ind) => (
                 <div key={ind}>
